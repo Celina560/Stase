@@ -5,7 +5,7 @@
 		<title>Gestion en urgence d'un lapin anorexique - Examen dentaire</title>
 		<meta charset="UTF-8">
 		<meta name="generator" content="SCENARI 6.2.8 / Topaze 5.0.5">
-		<meta name="revision" content="2025-11-24 11:07">
+		<meta name="revision" content="2025-12-15 15:26">
 		<link rel="start" href="A_parcours.html" title="Gestion en urgence d'un lapin anorexique">
 		<meta name="keywords" content>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -87,7 +87,7 @@ var jWYq2WJAmjjUR3U9Qy9mD = {
 
 		case "" : {
 		var vForm = document.forms.jWYq2WJAmjjUR3U9Qy9mD_form;
-		this._Sol = {N22:{s:[{isMatch:function(pResp){if(typeof pResp == 'undefined') return false; pResp=pResp.toUpperCase().trim(); return 'MALOCCLUSION'==pResp || false;}, score:1},null],min:0,max:1},N27:{s:[{isMatch:function(pResp){if(typeof pResp == 'undefined') return false; pResp=pResp.toUpperCase().trim(); return 'SPICULE DENTAIRE'==pResp || false;}, score:1},null],min:0,max:1},N2a:{s:[{isMatch:function(pResp){if(typeof pResp == 'undefined') return false; pResp=pResp.toUpperCase().trim(); return 'AVEC'==pResp || false;}, score:1},null],min:0,max:1},N2f:{s:[{isMatch:function(pResp){if(typeof pResp == 'undefined') return false; pResp=pResp.toUpperCase().trim(); return 'POINTES DENTAIRES'==pResp || false;}, score:1},null],min:0,max:1},_:null};
+		this._Sol = {N26:{s:[{isMatch:function(pResp){if(typeof pResp == 'undefined') return false; pResp=pResp.toUpperCase().trim(); return 'MALOCCLUSION'==pResp || false;}, score:1},null],min:0,max:1},N2b:{s:[{isMatch:function(pResp){if(typeof pResp == 'undefined') return false; pResp=pResp.toUpperCase().trim(); return 'PM4'==pResp || false;}, score:1},null],min:0,max:1},N30:{s:[{isMatch:function(pResp){if(typeof pResp == 'undefined') return false; pResp=pResp.toUpperCase().trim(); return 'PM4'==pResp || false;}, score:1},null],min:0,max:1},N33:{s:[{isMatch:function(pResp){if(typeof pResp == 'undefined') return false; pResp=pResp.toUpperCase().trim(); return 'M1'==pResp || false;}, score:1},null],min:0,max:1},_:null};
 		this.getSolIdx = function(pFieldIndex){
 			var vF = this._Sol[pFieldIndex];
 			var vVal = vForm[pFieldIndex].value;
@@ -136,7 +136,7 @@ var vRespSession = topazeMgr.fSessKeyQuiz;
 			this.fMinPts = 0;
 			this.fMaxPts = 0;
 			for(var vF in this._Sol) if(vF!="_") {this.fMinPts += this._Sol[vF].min; this.fMaxPts += this._Sol[vF].max;}
-			this.fScorePts = this.getFieldScore("N22")+this.getFieldScore("N27")+this.getFieldScore("N2a")+this.getFieldScore("N2f")+0;
+			this.fScorePts = this.getFieldScore("N26")+this.getFieldScore("N2b")+this.getFieldScore("N30")+this.getFieldScore("N33")+0;
 
 			//alert("score:::::"+this.fMinPts+" - "+this.fScorePts+" - "+this.fMaxPts);
 var vScoreSession = topazeMgr.fSessKeyQuiz;
@@ -227,10 +227,10 @@ scServices.assmntMgr.resetResponses(this.fId, vSess);
 };
 
 scOnLoads[scOnLoads.length] = jWYq2WJAmjjUR3U9Qy9mD = scOnPageHides[scOnPageHides.length] = jWYq2WJAmjjUR3U9Qy9mD;
-</script><div id="jWYq2WJAmjjUR3U9Qy9mD_A" style="display:none;"><div class="exo cloze"><div class="headerQ" id="jWYq2WJAmjjUR3U9Qy9mD_N_quest"><div class="question" id="jWYq2WJAmjjUR3U9Qy9mD_N_question"><div class="rBk "><p>Après avoir enroulé Globule dans une serviette, vous réalisez un examen dentaire à l'aide d'un otoscope. Que voyez vous ?</p><p>Complétez le texte à trous suivant en choisissant parmi ces propositions : Occlusion parfaite / Malocclusion ; Spicule dentaire / Pointe dentaire ; Sans / Avec ; Spicules dentaires / Pointes dentaires</p></div><div class="rBk res"><figure role="group" class="resInFlow " aria-label="I1_Dents"><div class="resInFlow_co "><img src="../res/I1_Dents.png" width="646" height="438" alt></div></figure></div><div class="rBk res"><figure role="group" class="resInFlow " aria-label="I1_Dents2"><div class="resInFlow_co "><img src="../res/I1_Dents2.png" width="654" height="440" alt></div></figure></div></div></div><div aria-live="polite" class="response"><form action="javascript:void(0);" name="jWYq2WJAmjjUR3U9Qy9mD_form" id="jWYq2WJAmjjUR3U9Qy9mD_form" autocomplete="off"><p class="cloze_p ">Ces images mettent en évidence une <span class="txt_gap_tl "><span><input name="N22" type="text" size="17" onblur="jWYq2WJAmjjUR3U9Qy9mD.setResp(this);" class="gapInput "></span><span id="jWYq2WJAmjjUR3U9Qy9mD_X_N22" class="gapAnswer "><span>malocclusion</span></span></span> des dents jugales maxillaires et mandibulaires.</p><p class="cloze_p ">Au niveau des dents jugales maxillaire, l'examen dentaire permet de visualiser une <span class="txt_gap_tl "><span><input name="N27" type="text" size="17" onblur="jWYq2WJAmjjUR3U9Qy9mD.setResp(this);" class="gapInput "></span><span id="jWYq2WJAmjjUR3U9Qy9mD_X_N27" class="gapAnswer "><span>spicule dentaire</span></span></span> en PM4 à droite <span class="txt_gap_tl "><span><input name="N2a" type="text" size="17" onblur="jWYq2WJAmjjUR3U9Qy9mD.setResp(this);" class="gapInput "></span><span id="jWYq2WJAmjjUR3U9Qy9mD_X_N2a" class="gapAnswer "><span>avec</span></span></span> présence d'une lésion des tissus mous de la joue.</p><p class="cloze_p ">Au niveau mandibulaire, des <span class="txt_gap_tl "><span><input name="N2f" type="text" size="17" onblur="jWYq2WJAmjjUR3U9Qy9mD.setResp(this);" class="gapInput "></span><span id="jWYq2WJAmjjUR3U9Qy9mD_X_N2f" class="gapAnswer "><span>pointes dentaires</span></span></span> en PM4 et M1 à droite sont présentes avec, en regard, des lésions récentes et cicatricielles de la langue.</p></form></div></div></div></div></div><div class="quizBk"><div><script>
-var jV3Y8vlqjCj8A9gxZcVM7g = {
+</script><div id="jWYq2WJAmjjUR3U9Qy9mD_A" style="display:none;"><div class="exo cloze"><div class="headerQ" id="jWYq2WJAmjjUR3U9Qy9mD_N_quest"><div class="question" id="jWYq2WJAmjjUR3U9Qy9mD_N_question"><div class="rBk "><p>Après avoir enroulé Globule dans une serviette, vous réalisez un examen dentaire à l'aide d'un otoscope. Que voyez vous ?</p><p>Complétez le texte à trous suivant en choisissant parmi ces propositions : Occlusion parfaite/Malocclusion ; PM2/PM3/PM4/M1/M2/M3 ;PM3/PM4/M1/M2/M3 ; PM2/PM3/PM4/M1/M2/M3</p><p>Un rappel de la nomenclature dentaire du lapin vous est mis à disposition.</p></div><div class="rBk res"><figure role="group" class="resInFlow " aria-label="I1_Dents"><div class="resInFlow_co "><img src="../res/I1_Dents.png" width="646" height="438" alt></div></figure></div><div class="rBk res"><figure role="group" class="resInFlow " aria-label="I1_Dents2"><div class="resInFlow_co "><img src="../res/I1_Dents2.png" width="654" height="440" alt></div></figure></div><div class="rBk res"><figure role="group" class="resInFlow " aria-label="I1_Nomenclaturedent"><div class="resInFlow_co "><img src="../res/I1_Nomenclaturedent.png" width="622" height="1120" alt></div></figure></div></div></div><div aria-live="polite" class="response"><form action="javascript:void(0);" name="jWYq2WJAmjjUR3U9Qy9mD_form" id="jWYq2WJAmjjUR3U9Qy9mD_form" autocomplete="off"><p class="cloze_p ">Ces images mettent en évidence une <span class="txt_gap_tl "><span><input name="N26" type="text" size="12" onblur="jWYq2WJAmjjUR3U9Qy9mD.setResp(this);" class="gapInput "></span><span id="jWYq2WJAmjjUR3U9Qy9mD_X_N26" class="gapAnswer "><span>malocclusion</span></span></span> des dents jugales maxillaires et mandibulaires.</p><p class="cloze_p ">Au niveau des dents jugales maxillaire, PM2 est manquante. L'examen dentaire permet de visualiser une pointe dentaire en <span class="txt_gap_tl "><span><input name="N2b" type="text" size="12" onblur="jWYq2WJAmjjUR3U9Qy9mD.setResp(this);" class="gapInput "></span><span id="jWYq2WJAmjjUR3U9Qy9mD_X_N2b" class="gapAnswer "><span>PM4</span></span></span> à droite.</p><p class="cloze_p ">Au niveau mandibulaire, des pointes dentaires en <span class="txt_gap_tl "><span><input name="N30" type="text" size="12" onblur="jWYq2WJAmjjUR3U9Qy9mD.setResp(this);" class="gapInput "></span><span id="jWYq2WJAmjjUR3U9Qy9mD_X_N30" class="gapAnswer "><span>PM4</span></span></span> et <span class="txt_gap_tl "><span><input name="N33" type="text" size="12" onblur="jWYq2WJAmjjUR3U9Qy9mD.setResp(this);" class="gapInput "></span><span id="jWYq2WJAmjjUR3U9Qy9mD_X_N33" class="gapAnswer "><span>M1</span></span></span> à droite sont présentes avec, en regard, des lésions récentes et cicatricielles de la langue.</p></form></div></div></div></div></div><div class="quizBk"><div><script>
+var C3OIFvPMNLcJ2FuS6rMCK = {
 
-	fId : "jV3Y8vlqjCj8A9gxZcVM7g",
+	fId : "C3OIFvPMNLcJ2FuS6rMCK",
 	fCurSeq : null,
 	initSeq : function(pCodeSeq){
 	try {
@@ -240,23 +240,23 @@ var jV3Y8vlqjCj8A9gxZcVM7g = {
 		switch(this.fCurSeq) {
 
 		case "" : {
-		var vForm = document.forms.jV3Y8vlqjCj8A9gxZcVM7g_form;
-		for (var i=0; i < vForm.jV3Y8vlqjCj8A9gxZcVM7g_input.length; i++) {
-			vForm.jV3Y8vlqjCj8A9gxZcVM7g_input[i].disabled = false;
-			vForm.jV3Y8vlqjCj8A9gxZcVM7g_input[i].checked = false;
+		var vForm = document.forms.C3OIFvPMNLcJ2FuS6rMCK_form;
+		for (var i=0; i < vForm.C3OIFvPMNLcJ2FuS6rMCK_input.length; i++) {
+			vForm.C3OIFvPMNLcJ2FuS6rMCK_input[i].disabled = false;
+			vForm.C3OIFvPMNLcJ2FuS6rMCK_input[i].checked = false;
 		}
 
 var vLoadRespSession = topazeMgr.fSessKeyQuiz;
 var vResp = scServices.assmntMgr.getResponse(this.fId, vLoadRespSession, "choice");
-		if(vResp != null) sc$("jV3Y8vlqjCj8A9gxZcVM7g_in"+vResp).checked = true;
+		if(vResp != null) sc$("C3OIFvPMNLcJ2FuS6rMCK_in"+vResp).checked = true;
 
 		this.setSolution(false);
-scAssmntMgr.setMode(sc$("jV3Y8vlqjCj8A9gxZcVM7g_N_choiceList"), "visible");
-scAssmntMgr.setMode(sc$("jV3Y8vlqjCj8A9gxZcVM7g_N_question"), "visible");
-scAssmntMgr.setMode(sc$("jV3Y8vlqjCj8A9gxZcVM7g_N0_choice"), "visible");
-scAssmntMgr.setMode(sc$("jV3Y8vlqjCj8A9gxZcVM7g_N1_choice"), "visible");
-scAssmntMgr.setMode(sc$("jV3Y8vlqjCj8A9gxZcVM7g_N0_label"), "visible");
-scAssmntMgr.setMode(sc$("jV3Y8vlqjCj8A9gxZcVM7g_N1_label"), "visible");
+scAssmntMgr.setMode(sc$("C3OIFvPMNLcJ2FuS6rMCK_N_choiceList"), "visible");
+scAssmntMgr.setMode(sc$("C3OIFvPMNLcJ2FuS6rMCK_N_question"), "visible");
+scAssmntMgr.setMode(sc$("C3OIFvPMNLcJ2FuS6rMCK_N0_choice"), "visible");
+scAssmntMgr.setMode(sc$("C3OIFvPMNLcJ2FuS6rMCK_N1_choice"), "visible");
+scAssmntMgr.setMode(sc$("C3OIFvPMNLcJ2FuS6rMCK_N0_label"), "visible");
+scAssmntMgr.setMode(sc$("C3OIFvPMNLcJ2FuS6rMCK_N1_label"), "visible");
 var vRespSession = topazeMgr.fSessKeyQuiz;
 		if(scServices.assmntMgr.getCompletionStatus(this.fId, vRespSession)=="notAttempt") scServices.assmntMgr.setCompletionStatus(this.fId, vRespSession, "attempt");
 		this.setResp = function(pInput, pIdx) {
@@ -270,7 +270,7 @@ var vRespSession = topazeMgr.fSessKeyQuiz;
 
 		this.fMinPts = 0;
 		this.fMaxPts = 1;
-		this.fScorePts = document.forms.jV3Y8vlqjCj8A9gxZcVM7g_form.jV3Y8vlqjCj8A9gxZcVM7g_input[0].checked ?  this.fMaxPts : this.fMinPts;
+		this.fScorePts = document.forms.C3OIFvPMNLcJ2FuS6rMCK_form.C3OIFvPMNLcJ2FuS6rMCK_input[0].checked ?  this.fMaxPts : this.fMinPts;
 
 		//alert("score:::::"+this.fMinPts+" - "+this.fScorePts+" - "+this.fMaxPts);
 var vScoreSession = topazeMgr.fSessKeyQuiz;
@@ -280,8 +280,8 @@ var vScoreSession = topazeMgr.fSessKeyQuiz;
 		}
 
 if(vRespSession != vLoadRespSession) {
-for(var i = 0; i < vForm.jV3Y8vlqjCj8A9gxZcVM7g_input.length; i++) if(vForm.jV3Y8vlqjCj8A9gxZcVM7g_input[i].checked) break;
-		scServices.assmntMgr.setResponse(this.fId, vRespSession, "choice", (i < vForm.jV3Y8vlqjCj8A9gxZcVM7g_input.length) ? vForm.jV3Y8vlqjCj8A9gxZcVM7g_input[i].value : null);
+for(var i = 0; i < vForm.C3OIFvPMNLcJ2FuS6rMCK_input.length; i++) if(vForm.C3OIFvPMNLcJ2FuS6rMCK_input[i].checked) break;
+		scServices.assmntMgr.setResponse(this.fId, vRespSession, "choice", (i < vForm.C3OIFvPMNLcJ2FuS6rMCK_input.length) ? vForm.C3OIFvPMNLcJ2FuS6rMCK_input[i].value : null);
 }
 this.computeScore();
 
@@ -299,7 +299,7 @@ scServices.assmntMgr.resetResponses(this.fId, vSess);
 	},
 
 	closeSeq: function(){
-		var vForm = document.forms.jV3Y8vlqjCj8A9gxZcVM7g_form;
+		var vForm = document.forms.C3OIFvPMNLcJ2FuS6rMCK_form;
 		switch(this.fCurSeq) {
 
 	case "" : {
@@ -322,7 +322,7 @@ scServices.assmntMgr.resetResponses(this.fId, vSess);
 	solIsShown : false,
 	setSolution : function(pShown){
 		var vTRs = null;
-		var vForm = document.forms.jV3Y8vlqjCj8A9gxZcVM7g_form;
+		var vForm = document.forms.C3OIFvPMNLcJ2FuS6rMCK_form;
 		var vTable = scPaLib.findNode("chi:" ,vForm);
 		if (vTable.nodeName.toLowerCase()=="table") vTRs = scPaLib.findNodes("chi:/chi:tr" ,vTable);
 		else vTRs = scPaLib.findNodes("chi:" ,vTable);
@@ -347,7 +347,7 @@ scServices.assmntMgr.resetResponses(this.fId, vSess);
 	},
 	onLoad: function(){
 		this.initSeq(this.getOnLoadSeq());
-		scAssmntMgr.setMode(sc$("jV3Y8vlqjCj8A9gxZcVM7g_A"));
+		scAssmntMgr.setMode(sc$("C3OIFvPMNLcJ2FuS6rMCK_A"));
 	},
 	onPageHide: function(){
 		this.closeSeq();
@@ -356,8 +356,8 @@ scServices.assmntMgr.resetResponses(this.fId, vSess);
 	pageHideSortKey: "A"
 };
 
-scOnLoads[scOnLoads.length] = jV3Y8vlqjCj8A9gxZcVM7g = scOnPageHides[scOnPageHides.length] = jV3Y8vlqjCj8A9gxZcVM7g;
-</script><div id="jV3Y8vlqjCj8A9gxZcVM7g_A" style="display:none;"><div class="exo mcqSur"><div class="headerQ"><div class="question" id="jV3Y8vlqjCj8A9gxZcVM7g_N_question"><div class="rBk "><p>Un parage dentaire vous semble-t-il nécessaire ?</p></div></div></div><div id="jV3Y8vlqjCj8A9gxZcVM7g_N_choiceList" class><form action name="jV3Y8vlqjCj8A9gxZcVM7g_form" id="jV3Y8vlqjCj8A9gxZcVM7g_form" autocomplete="off"><ul class="choiceList "><li class="choiceList_ch "><span class="choiceList_in "><input type="radio" name="jV3Y8vlqjCj8A9gxZcVM7g_input" id="jV3Y8vlqjCj8A9gxZcVM7g_in0" value="0" onclick="jV3Y8vlqjCj8A9gxZcVM7g.setResp(this, 0);"></span><label class="choiceList_la " for="jV3Y8vlqjCj8A9gxZcVM7g_in0"><div class="choice" id="jV3Y8vlqjCj8A9gxZcVM7g_N0_choice"><div class="label" id="jV3Y8vlqjCj8A9gxZcVM7g_N0_label"><p>Oui.</p></div></div></label></li><li class="choiceList_ch "><span class="choiceList_in "><input type="radio" name="jV3Y8vlqjCj8A9gxZcVM7g_input" id="jV3Y8vlqjCj8A9gxZcVM7g_in1" value="1" onclick="jV3Y8vlqjCj8A9gxZcVM7g.setResp(this, 1);"></span><label class="choiceList_la " for="jV3Y8vlqjCj8A9gxZcVM7g_in1"><div class="choice" id="jV3Y8vlqjCj8A9gxZcVM7g_N1_choice"><div class="label" id="jV3Y8vlqjCj8A9gxZcVM7g_N1_label"><p>Non.</p></div></div></label></li></ul></form></div></div></div></div></div></div></section></div></div></div><div class="stepTools"><hr class="hidden"><nav id="arc" role="navigation"><div class="arcBk assmntArc"><div class="arcBk_co "><a class="btnNav btnValid" title="Validez le quiz et affichez les r&eacute;sultats" href="I1_Dent_1.html" onclick="scServices.assmntMgr.setResponse('MV0jswe8REcRxooVwhpL0e', '', 'tryNum',scCoLib.toInt(scServices.assmntMgr.getResponse('MV0jswe8REcRxooVwhpL0e', '', 'tryNum'))+1);scServices.assmntMgr.commit();"><span>Validez</span></a></div></div></nav></div></main><footer id="footer" role="contentinfo"><hr class="hidden"><a class="btnLegal " role="button" target="_blank" href="#" onclick="scDynUiMgr.displaySubWindow(this,&quot;legal.html&quot;,&quot;subWindow&quot;);return false;" onkeyup="scDynUiMgr.handleBtnKeyUp(event);" onkeydown="scDynUiMgr.handleBtnKeyDwn(event);" title="Afficher les mentions l&eacute;gales"><span>Mentions légales</span></a><a id="linkSp" target="_blank" href="https://doc.scenari.software/Topaze/" title="R&eacute;alis&eacute; avec Scenari (nouvelle fen&ecirc;tre)"><span><img alt="R&eacute;alis&eacute; avec Scenari (nouvelle fen&ecirc;tre)" src="../skin/img/tpl/scBtn.png"></span></a></footer></div>
+scOnLoads[scOnLoads.length] = C3OIFvPMNLcJ2FuS6rMCK = scOnPageHides[scOnPageHides.length] = C3OIFvPMNLcJ2FuS6rMCK;
+</script><div id="C3OIFvPMNLcJ2FuS6rMCK_A" style="display:none;"><div class="exo mcqSur"><div class="headerQ"><div class="question" id="C3OIFvPMNLcJ2FuS6rMCK_N_question"><div class="rBk "><p>Un parage dentaire vous semble-t-il nécessaire ?</p></div></div></div><div id="C3OIFvPMNLcJ2FuS6rMCK_N_choiceList" class><form action name="C3OIFvPMNLcJ2FuS6rMCK_form" id="C3OIFvPMNLcJ2FuS6rMCK_form" autocomplete="off"><ul class="choiceList "><li class="choiceList_ch "><span class="choiceList_in "><input type="radio" name="C3OIFvPMNLcJ2FuS6rMCK_input" id="C3OIFvPMNLcJ2FuS6rMCK_in0" value="0" onclick="C3OIFvPMNLcJ2FuS6rMCK.setResp(this, 0);"></span><label class="choiceList_la " for="C3OIFvPMNLcJ2FuS6rMCK_in0"><div class="choice" id="C3OIFvPMNLcJ2FuS6rMCK_N0_choice"><div class="label" id="C3OIFvPMNLcJ2FuS6rMCK_N0_label"><p>Oui.</p></div></div></label></li><li class="choiceList_ch "><span class="choiceList_in "><input type="radio" name="C3OIFvPMNLcJ2FuS6rMCK_input" id="C3OIFvPMNLcJ2FuS6rMCK_in1" value="1" onclick="C3OIFvPMNLcJ2FuS6rMCK.setResp(this, 1);"></span><label class="choiceList_la " for="C3OIFvPMNLcJ2FuS6rMCK_in1"><div class="choice" id="C3OIFvPMNLcJ2FuS6rMCK_N1_choice"><div class="label" id="C3OIFvPMNLcJ2FuS6rMCK_N1_label"><p>Non.</p></div></div></label></li></ul></form></div></div></div></div></div></div></section></div></div></div><div class="stepTools"><hr class="hidden"><nav id="arc" role="navigation"><div class="arcBk assmntArc"><div class="arcBk_co "><a class="btnNav btnValid" title="Validez le quiz et affichez les r&eacute;sultats" href="I1_Dent_1.html" onclick="scServices.assmntMgr.setResponse('MV0jswe8REcRxooVwhpL0e', '', 'tryNum',scCoLib.toInt(scServices.assmntMgr.getResponse('MV0jswe8REcRxooVwhpL0e', '', 'tryNum'))+1);scServices.assmntMgr.commit();"><span>Validez</span></a></div></div></nav></div></main><footer id="footer" role="contentinfo"><hr class="hidden"><a class="btnLegal " role="button" target="_blank" href="#" onclick="scDynUiMgr.displaySubWindow(this,&quot;legal.html&quot;,&quot;subWindow&quot;);return false;" onkeyup="scDynUiMgr.handleBtnKeyUp(event);" onkeydown="scDynUiMgr.handleBtnKeyDwn(event);" title="Afficher les mentions l&eacute;gales"><span>Mentions légales</span></a><a id="linkSp" target="_blank" href="https://doc.scenari.software/Topaze/" title="R&eacute;alis&eacute; avec Scenari (nouvelle fen&ecirc;tre)"><span><img alt="R&eacute;alis&eacute; avec Scenari (nouvelle fen&ecirc;tre)" src="../skin/img/tpl/scBtn.png"></span></a></footer></div>
 		<script src="../skin/js/skin.js"></script>
 		<script type="text/javascript">tplMgr.init();scCodeMgr.init();mapMgr.init();countDownMgr.init();scImageMgr.init();searchMgr.init();</script>
 	</body>

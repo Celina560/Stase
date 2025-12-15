@@ -5,7 +5,7 @@
 		<title>Gestion en urgence d'un lapin anorexique - Prise en charge</title>
 		<meta charset="UTF-8">
 		<meta name="generator" content="SCENARI 6.2.8 / Topaze 5.0.5">
-		<meta name="revision" content="2025-11-24 11:07">
+		<meta name="revision" content="2025-12-15 15:26">
 		<link rel="start" href="A_parcours.html" title="Gestion en urgence d'un lapin anorexique">
 		<meta name="keywords" content>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -146,7 +146,7 @@ var vRespSession = topazeMgr.fSessKeyQuiz;
 
 		this.fMinPts = 0;
 		this.fMaxPts = 1;
-		this.fScorePts = true && vForm.KPrSX02zRxgTEoWdW3GyZb_input[0].checked && ! vForm.KPrSX02zRxgTEoWdW3GyZb_input[1].checked && ! vForm.KPrSX02zRxgTEoWdW3GyZb_input[2].checked && vForm.KPrSX02zRxgTEoWdW3GyZb_input[3].checked && ! vForm.KPrSX02zRxgTEoWdW3GyZb_input[4].checked && ! vForm.KPrSX02zRxgTEoWdW3GyZb_input[5].checked && ! vForm.KPrSX02zRxgTEoWdW3GyZb_input[6].checked && vForm.KPrSX02zRxgTEoWdW3GyZb_input[7].checked && vForm.KPrSX02zRxgTEoWdW3GyZb_input[8].checked && vForm.KPrSX02zRxgTEoWdW3GyZb_input[9].checked && vForm.KPrSX02zRxgTEoWdW3GyZb_input[10].checked && vForm.KPrSX02zRxgTEoWdW3GyZb_input[11].checked && ! vForm.KPrSX02zRxgTEoWdW3GyZb_input[12].checked && vForm.KPrSX02zRxgTEoWdW3GyZb_input[13].checked && vForm.KPrSX02zRxgTEoWdW3GyZb_input[14].checked && ! vForm.KPrSX02zRxgTEoWdW3GyZb_input[15].checked ? this.fMaxPts : this.fMinPts;
+		this.fScorePts = true && vForm.KPrSX02zRxgTEoWdW3GyZb_input[0].checked && ! vForm.KPrSX02zRxgTEoWdW3GyZb_input[1].checked && ! vForm.KPrSX02zRxgTEoWdW3GyZb_input[2].checked && vForm.KPrSX02zRxgTEoWdW3GyZb_input[3].checked && ! vForm.KPrSX02zRxgTEoWdW3GyZb_input[4].checked && ! vForm.KPrSX02zRxgTEoWdW3GyZb_input[5].checked && ! vForm.KPrSX02zRxgTEoWdW3GyZb_input[6].checked && ! vForm.KPrSX02zRxgTEoWdW3GyZb_input[7].checked && vForm.KPrSX02zRxgTEoWdW3GyZb_input[8].checked && vForm.KPrSX02zRxgTEoWdW3GyZb_input[9].checked && vForm.KPrSX02zRxgTEoWdW3GyZb_input[10].checked && vForm.KPrSX02zRxgTEoWdW3GyZb_input[11].checked && ! vForm.KPrSX02zRxgTEoWdW3GyZb_input[12].checked && vForm.KPrSX02zRxgTEoWdW3GyZb_input[13].checked && vForm.KPrSX02zRxgTEoWdW3GyZb_input[14].checked && ! vForm.KPrSX02zRxgTEoWdW3GyZb_input[15].checked ? this.fMaxPts : this.fMinPts;
 
 		//alert("score:::::"+this.fMinPts+" - "+this.fScorePts+" - "+this.fMaxPts);
 var vScoreSession = topazeMgr.fSessKeyQuiz;
@@ -238,7 +238,7 @@ scServices.assmntMgr.resetResponses(this.fId, vSess);
 			vTR.className = "assmntSolUnche " + vTR.className;
 
 			vTR = vTRs[i++];
-			vTR.className = "assmntSolCheck " + vTR.className;
+			vTR.className = "assmntSolUnche " + vTR.className;
 
 			vTR = vTRs[i++];
 			vTR.className = "assmntSolCheck " + vTR.className;
